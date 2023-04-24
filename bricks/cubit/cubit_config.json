@@ -1,0 +1,27 @@
+{
+	"cubit_name": "send money",
+	"repository_name": "send money",
+	"properties": [
+		{
+			"type": "String?",
+			"name": "errorMessage",
+			"initialValue": "null"
+		},
+		{
+			"type": "DeliveryAddress?",
+			"name": "deliveryAddress",
+			"initialValue": "[]"
+		},
+		{
+			"type": "CardPricing",
+			"name": "cardPricing",
+			"initialValue": "CardPricing.empty()"
+		}
+	],
+	"states": [
+		"initial",
+		"error",
+		"loading",
+		"priceGotten"
+	]
+}
